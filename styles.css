@@ -1,0 +1,668 @@
+/* GENERAL */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.clear
+{
+    clear: both;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ol
+{
+    list-style: none;
+}
+
+.center-div 
+{
+    margin: 0 auto;
+    width: 100px; 
+}
+
+h1
+{
+    font-family: 'Saira Extra Condensed', 'Roboto' , sans-serif;
+    font-weight: 400;
+    letter-spacing: 12px;
+    word-spacing: 2px;
+    font-size: 32px;
+    color: #444;
+    text-transform: uppercase;
+}
+
+h2 
+{
+    font-family: 'Saira Extra Condensed', 'Roboto', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    text-decoration: solid #FF9839 underline;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #FF9839;
+    text-align: left;
+}
+
+h3
+{
+    font-family: 'Catamaran', 'Roboto', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    color: #EE92B6;
+}
+
+h4
+{
+    font-family: 'Catamaran', 'Roboto', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #FFD057;
+    padding-bottom: 20px;
+}
+
+h4:hover
+{
+    color: #FF9839
+}
+
+a
+{
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #FF9839;
+}
+
+p
+{
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Catamaran', 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.button-1
+{
+    padding: 12px 18px;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #FF9839;
+    background: #FF9839;
+    color: black;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.button-1:hover
+{
+    padding: 12px 18px;
+    border-radius: 10px;
+    border: 3px solid #FFD057;
+    color: #FFD057;
+    background-color: transparent;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.button-2
+{
+    padding: 10px 18px;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    border-radius: 28px;
+    border: 1px solid #F6B4E6;
+    background: #F6B4E6;
+    color: #240E19;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.button-2:hover
+{
+    padding: 10px 18px;
+    border-radius: 28px;
+    border: 3px solid #F2C2F9;
+    color: #F2C2F9;
+    background-color: transparent;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.button-3
+{
+    padding: 12px 18px;
+    font-size: 16px;
+    font-family: 'Catamaran', sans-serif;
+    border-radius: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color: #ccc;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+/* HEADER */
+
+header
+{
+    height: 90px;
+    font-weight: bold;
+    background-color: #010101;
+    position: fixed;
+    width: 100%;
+    z-index: 20;
+}
+
+header h1
+{
+    float: left;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+header nav
+{
+    float:right;
+    margin-top: 28px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    float: left;
+    font-weight: 900;
+}
+
+header nav ul li a
+{
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+header h1 a 
+{
+    color: #FFFFFF;
+}
+
+header nav a
+{
+    color: #FFD057;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+}
+
+.active_items 
+{
+    color: #C90079 !important;
+}
+
+/* HOMEPAGE */
+
+.homepage-background
+{
+    background-color: #010101;
+    height: auto;
+    width: auto;
+    margin: 0 auto;
+}
+
+.homepage-image
+{
+    width: 350px;
+    height: 525px;
+    border-radius: 10px;
+}
+
+.homepage-container
+{
+    width: 90%;
+    background-color: #010101;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.homepage-card-1
+{
+    width: 30%;
+    height: 720px;
+    margin: 0 auto;
+    background-color: #010101;
+    float: left;
+    padding: 0 auto;
+}
+
+.card-container
+{
+    background: #010101;
+    height: auto;
+    width: auto;
+    padding-bottom: 5px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.card-container p
+{
+    padding-bottom: 20px;
+}
+
+#about-acs
+{
+    width: 100%;
+    height: 100%;
+    background: url(images-s1/background-1.jpeg);
+    background-size: cover;
+    padding-top: 40px;
+    margin: 60px auto;
+}
+
+ #about-acs p
+ {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px auto;
+    padding-bottom: 40px;
+ }
+
+#cast-hp-1
+{
+    background: url(images/cast-hp-1.png) no-repeat top center;
+}
+
+#cast-hp-2
+{
+    background: url(images/cast-hp-2.png) no-repeat top center;
+}
+
+#cast-hp-3
+{
+    background: url(images/cast-hp-3.png) no-repeat top center;
+}
+
+#cast-hp-4
+{
+    background: url(images/cast-hp-4.png) no-repeat top center;
+}
+
+/* CARDS */
+
+.card
+{
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: 0px auto;
+}
+
+.card:hover
+{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+  }
+
+.container
+{
+    background: #010101;
+    height: 300px;
+    width: 400px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* SEASONS */
+
+.background
+{
+    width: 100%;
+    height: 100%;
+    background: url(images-s1/background-1.jpeg);
+    background-size: cover;
+    padding-top: 120px;
+}
+
+.subtitle 
+{
+    font-size: 18px;
+    font-family: 'Catamaran', 'Roboto', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.context
+{
+    width: 84%;
+    height: 400px;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin: 20px auto;
+    align-items: center;
+}
+
+.context video
+{
+    float: left;
+}
+
+.description
+{
+    float: right;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.description p
+{
+    height: auto;
+    width: 420px;
+    text-align: justify;
+}
+
+.synopsis
+{
+    margin-bottom: 40px;
+}
+
+/* CAST */
+
+.cast
+{
+    margin: 0 auto;
+    width: 100%;
+    height: 400px;
+}
+
+.cast ul
+{
+    margin: 50px auto;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+.cast ul li
+{
+    width: 260px;
+    height: 300px;
+    display: inline-block;
+    padding: 0 auto;
+}
+
+.cast-1-1
+{
+    background: url(images-s1/cast1.png) no-repeat top center;
+}
+
+.cast-1-2
+{
+    background: url(images-s1/cast2.png) no-repeat top center;
+}
+
+.cast-1-3
+{
+    background: url(images-s1/cast3.png) no-repeat top center;
+}
+
+.cast-1-4
+{
+    background: url(images-s1/cast4.png) no-repeat top center;
+}
+
+.cast-2-1
+{
+    background: url(images-s2/cast-2-1.png) no-repeat top center;
+}
+
+.cast-2-2
+{
+    background: url(images-s2/cast-2-2.png) no-repeat top center;
+}
+
+.cast-2-3
+{
+    background: url(images-s2/cast-2-3.png) no-repeat top center;
+}
+
+.cast-2-4
+{
+    background: url(images-s2/cast-2-4.png) no-repeat top center;
+}
+
+.cast-3-1
+{
+    background: url(images-s3/cast5.png) no-repeat top center;
+}
+
+.cast-3-2
+{
+    background: url(images-s1/cast3.png) no-repeat top center;
+}
+
+.cast-3-3
+{
+    background: url(images-s3/cast6.png) no-repeat top center;
+}
+
+.cast-3-4
+{
+    background: url(images-s3/cast7.png) no-repeat top center;
+}
+
+.name
+{
+    padding-top: 180px;
+    font-family: 'Catamaran', 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cast p
+{
+    margin: 0 0;
+}
+
+.caracter
+{
+    font-size: 18px;
+}
+
+/* SOUNDTRACK */
+
+.soundtrack
+{
+    width: 60%;
+    height: 400px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.soundtrack-bis
+{
+    width: 60%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.left-col
+{
+    padding-top: 40px;
+    float: left;
+    padding-bottom: 40px;
+    text-align: left;
+}
+
+.right-col
+{
+    padding-top: 40px;
+    float: right;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+.song
+{
+    color: #FFF;
+    height: 20px;
+    font-family: 'Catamaran', 'Roboto', sans-serif;
+    font-size: 18px;
+    padding-bottom: 8px;
+}
+
+.podcast
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+/* GALLERY */
+
+.gallery
+{
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.gallery ul
+{
+    text-align: center;
+    display: inline-block;
+}
+
+.gallery ul li
+{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    padding: 0 auto;
+    border-radius: 20px;
+}
+
+.img-s1-1
+{
+    background: url(images-s1/img-s1-1.png);
+}
+.img-s1-2
+{
+    background: url(images-s1/img-s1-2.png);
+}
+
+.img-s1-3
+{
+    background: url(images-s1/img-s1-3.png) center;
+}
+
+.img-s2-1
+{
+    background: url(images-s2/img-s2-1.png);
+}
+.img-s2-2
+{
+    background: url(images-s2/img-s2-2.png);
+}
+
+.img-s2-3
+{
+    background: url(images-s2/img-s2-3.png) center;
+}
+
+.img-s3-1
+{
+    background: url(images-s3/img-s3-1.png);
+}
+.img-s3-2
+{
+    background: url(images-s3/img-s3-2.png);
+}
+
+.img-s3-3
+{
+    background: url(images-s3/img-s3-3.png) center;
+}
+
+.center-items 
+{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-gallery  
+{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+/* MORE SEASONS */
+.season-card
+{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.season-1-card
+{
+    padding-top: 40px;
+    width: 530px;
+    height: 280px;
+    text-align: center;
+    display: inline-block;
+}
+
+.season-1-card:hover {
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.image 
+{
+    border-radius: 10px;
+}
+
+/* FOOTER */
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    margin-top: 40px;
+    text-align: center;
+    padding-top: 24px;
+}
+
+p footer
+{
+    position: absolute;
+    text-align: center;
+    color: #F2C2F9;
+}
